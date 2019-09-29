@@ -1,5 +1,4 @@
 # Line_Bot
-#IJ/Project/Bot/Line_Bithumb
 
 Get Coin Price from [빗썸(Bithumb) - 믿을 수 있는 암호화폐 거래소](https://www.bithumb.com) with Line Bot
 
