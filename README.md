@@ -47,10 +47,28 @@ git push heroku master
 heroku logs --tail
 ```
 
-
 - - - -
 
+
+
+# Result
+
+
+
+![result](./result/result1.png)
+
+
+
+
+
+
+
+
+
+
+
 # Bug report
+
 **fail to detect**
 [Buildpacks | Heroku Dev Center](https://devcenter.heroku.com/articles/buildpacks)
 ```shell
@@ -87,4 +105,6 @@ app.run(host=“0.0.0.0”, port=port)
 ```shell
 $ heroku ps:scale web=1
 ```
+
+
 
