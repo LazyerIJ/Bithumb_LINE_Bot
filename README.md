@@ -51,7 +51,7 @@ heroku logs --tail
 
 
 
-# Result
+## 4. Result
 
 
 
@@ -67,7 +67,7 @@ heroku logs --tail
 
 
 
-# Bug report
+## 5. Error report
 
 **fail to detect**
 [Buildpacks | Heroku Dev Center](https://devcenter.heroku.com/articles/buildpacks)
@@ -107,4 +107,5 @@ $ heroku ps:scale web=1
 ```
 
 
-
+## 6. P.S
+Let's make together for fun!!
