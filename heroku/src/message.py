@@ -1,7 +1,7 @@
 from src.bithumb import find_coin_in_message, get_coin
 from datetime import datetime
 
-AVAL_REPLY_DT_FORMAT = '[*]%Y.%M.%d %H:%m'
+AVAL_REPLY_DT_FORMAT = '[*]%Y.%m.%d %H:%M'
 AVAL_REPLY_FORMAT = '\n{}: {}'
 DISAVL_REPLY_FORMAT = '아쉽지만 대답하기 어려운 질문이네요..\n[웨이브, 비트코인, 이오스]의 가격만 알 수 있어요'
 
