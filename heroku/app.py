@@ -11,7 +11,7 @@ from linebot.models import (
 )
 
 import os ,json
-from src.make_reply import reply
+from src.message import get_reply
 
 app = Flask(__name__)
 
@@ -27,6 +27,7 @@ def callback():
 
     # get request body as text
     body = request.get_data(as_text=True)
+
     app.logger.info("Request body: " + body)
 
     # handle webhook body
@@ -41,7 +42,10 @@ def callback():
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
-    text = reply(event.message.text)
+    print('[L]userId: {}'.format(event.source))
+    print('[L]event.message: {}'.format(event.message))
+    text = get_reply(event.message.text)
+
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text=text))
