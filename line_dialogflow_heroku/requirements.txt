@@ -3,3 +3,5 @@ flask
 gunicorn
 dialogflow
 pyowm
+newrelic
+beautifulsoup4

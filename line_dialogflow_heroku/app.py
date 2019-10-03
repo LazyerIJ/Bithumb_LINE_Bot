@@ -1,9 +1,9 @@
 from flask import Flask, request, abort, jsonify
-import os ,json
+import os ,json, threading
 from src.message import get_reply
-app = Flask(__name__)
 
-token = json.load(open('token.json'))
+app = Flask(__name__)
+token = json.load((open('token.json')))
 
 @app.route("/callback", methods=['POST'])
 def callback():
@@ -24,8 +24,6 @@ def callback():
     return jsonify(reply)
 
 
-
-
 if __name__ == "__main__":
     port = None
     try:
@@ -35,4 +33,5 @@ if __name__ == "__main__":
         #local
         port = 5050
     app.run(host="0.0.0.0", port=port)
+
     #app.run()
