@@ -1,2 +1,4 @@
 line_heroku/token.json
-.git/
+line_heroku/.git
+line_dialogflow_heroku/.git
+
