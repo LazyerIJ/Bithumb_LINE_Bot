@@ -4,7 +4,7 @@ import datetime
 AVAL_REPLY_DT_FORMAT = '[*]%Y.%m.%d %H:%M'
 AVAL_REPLY_FORMAT = '\n{}: {}'
 
-SEOUL_TIMEDELTA = 0
+SEOUL_TIMEDELTA = 9
 
 def get_dt():
     now = datetime.datetime.now()
