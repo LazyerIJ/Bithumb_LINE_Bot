@@ -4,14 +4,29 @@ Get Coin Price from [빗썸(Bithumb) - 믿을 수 있는 암호화폐 거래소]
 
 ## 1. Pre
 1. **Heroku**
-Sign up  [https://www.heroku.com](https://www.heroku.com/) 
+  Sign up  [https://www.heroku.com](https://www.heroku.com/) 
+
+  
+
 2. **Line**
-Sign up [LINE Developers](https://developers.line.biz/en/)
-Add Provider
-Use MessagingAPI (Create Channel)
-	- Use **Channel secret** / **Channel access token (long-lived)**
-	- **Use Webhooks** Enable
-	- **Webhook URL** : https://{heruku app name}.herokuapp.com/callback
+  Sign up [LINE Developers](https://developers.line.biz/en/)
+  Add Provider
+  Use MessagingAPI (Create Channel)
+  - Use **Channel secret** / **Channel access token (long-lived)**
+
+  - **Use Webhooks** Enable
+
+  - **Webhook URL** : https://{heruku app name}.herokuapp.com/callback
+
+    
+
+3. **Prevent Heroku app sleeping(Optional)**
+
+   If there is no traffic in heroku app, free acount should be sleeping mode.
+
+   [newrelic](https://elements.heroku.com/addons/newrelic) dyno can prevent this for free. Set your billing acount at heroku, and install this add-on.
+
+   
 
 
 ## 2. Install Heroku cli
