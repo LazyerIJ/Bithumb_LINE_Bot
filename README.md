@@ -11,7 +11,7 @@ Add Provider
 Use MessagingAPI (Create Channel)
 	- Use **Channel secret** / **Channel access token (long-lived)**
 	- **Use Webhooks** Enable
-	- **Webhook URL** : https://{heruku app name}.herukherokuapp.com/callback
+	- **Webhook URL** : https://{heruku app name}.herokuapp.com/callback
 
 
 ## 2. Install Heroku cli
